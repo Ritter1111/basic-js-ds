@@ -23,11 +23,11 @@ class Queue {
   }
 
   enqueue(value) {
-    // return this.queue.push(value);
+    return this.queue.push(value);
   }
 
   dequeue() {
-    // return this.queue.shift();
+    return this.queue.shift();
   }
 }
 
